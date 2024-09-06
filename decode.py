@@ -176,18 +176,3 @@ def decode_url(url: str, complexity: int) -> str:
     password = decode(img, complexity)
     return password
 
-
-#%%
-# Examples #
-SAMPLE_TEXT = "The Lord is my shepherd, I shall not want."
-print(decode(SAMPLE_TEXT, 4))
-
-# SAMPLE_IMAGE = Image.open("ronald_reagan.jpg")
-# print(decode(SAMPLE_IMAGE, 220))
-
-###
-
-# image_url = "https://www.baseball-reference.com/req/202408150/images/headshots/e/e463317c_sabr.jpg"
-
-# decode_url(image_url, 100)
-
